@@ -25,7 +25,7 @@ const NewPlace = () => {
         value: "",
         isValid: false,
       },
-      adress: {
+      address: {
         value: "",
         isValid: false,
       },
@@ -67,11 +67,11 @@ const NewPlace = () => {
         onInput={inputHandler}
       />
       <Input
-        id="adress"
+        id="address"
         element="input"
-        label="Adress"
+        label="Address"
         validators={[VALIDATOR_REQUIRE()]}
-        errorText="Please enter a valid adress"
+        errorText="Please enter a valid address"
         onInput={inputHandler}
       />
       <Button type="submit" disabled={!formState.isValid}>

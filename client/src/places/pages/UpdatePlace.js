@@ -19,7 +19,7 @@ const DUMMY_PLACES = [
     description: "one of the most famous sights",
     imageUrl:
       "https://www.welt.de/img/reise/mobile202815184/7642501167-ci102l-w1024/U-S-NEW-YORK-MANHATTAN-CITY-VIEW.jpg",
-    adress: "20 W 34th St, New York, NY 10001",
+    address: "20 W 34th St, New York, NY 10001",
     location: {
       lat: 40.7484405,
       lng: -73.9878584,
@@ -32,7 +32,7 @@ const DUMMY_PLACES = [
     description: "one of the most famous sights",
     imageUrl:
       "https://www.welt.de/img/reise/mobile202815184/7642501167-ci102l-w1024/U-S-NEW-YORK-MANHATTAN-CITY-VIEW.jpg",
-    adress: "20 W 34th St, New York, NY 10001",
+    address: "20 W 34th St, New York, NY 10001",
     location: {
       lat: 40.7484405,
       lng: -73.9878584,

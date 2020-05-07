@@ -33,7 +33,7 @@ const formReducer = (state, action) => {
   }
 };
 
-// taking the inputs title,description,adress from the user and user the for the reducer
+// taking the inputs title,description,address from the user and user the for the reducer
 export const useForm = (initialInputs, initialFormValidity) => {
   const [formState, dispatch] = useReducer(formReducer, {
     inputs: initialInputs,
